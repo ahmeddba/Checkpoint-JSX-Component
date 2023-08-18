@@ -1,0 +1,30 @@
+.skills{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    color: #913159;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.sk{
+    flex: 1;
+    padding: 20px;
+}
+.sk h1{
+text-align: start;
+    font-weight: 600;
+    margin-bottom: 0    ;
+}
+.bg{
+    padding: 20px;
+    flex: 2;
+}
+.bg img{
+
+    border-radius: 20px;
+}
+.sk ul{
+    margin-top: 100px;
+}

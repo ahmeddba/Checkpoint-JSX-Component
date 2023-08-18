@@ -1,0 +1,33 @@
+header{
+    background-color: #913159;
+padding-top: 15px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left:0;
+    display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 100;
+  }
+  a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    transition: font-weight 0.2s ease-in-out;
+
+  }
+  a:hover{
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+  }
+header p{
+    font-weight: 700;
+    font-size: 22px;
+}
